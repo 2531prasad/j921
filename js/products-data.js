@@ -1,0 +1,431 @@
+window.PRODUCTS_DATA = {
+  "company": {
+    "name": "Jhanvi Enterprises",
+    "tagline": "Where quality meets security, we fence.",
+    "partner_title": "Official Registered Solutioning Partner of A-1 Fence",
+    "specialization": "5+ years delivering A-1 fencing solutions for Hyderabad’s hyperscale data centers and critical infrastructure.",
+    "management_system": {
+      "attribution": "A-1 Fence’s integrated management system",
+      "standards": [
+        "ISO 9001:2015",
+        "ISO 14001:2015",
+        "ISO 45001:2018"
+      ]
+    },
+    "contact": {
+      "phone": "+91-8328014122",
+      "email": "info@jhanvienterprises.co.in",
+      "website": "https://www.jhanvienterprises.co.in",
+      "address": "Plot No 942, Asbestos Colony, Kukatpally, Ranga Reddy, Hyderabad, Telangana - 500072, India"
+    }
+  },
+  "product_categories": [
+    {
+      "id": "welded-mesh-fencing",
+      "title": "High Security & Welded Mesh",
+      "products": [
+        {
+          "id": "anti-climb-358-fence",
+          "name": "358 Anti-Climb Mesh",
+          "category": "High Security & Welded Mesh",
+          "badge": "A-1 Fence systems",
+          "tagline": "Dense mesh. Clear sightlines. A stronger perimeter.",
+          "image": "assets/images/anti-climb-358-installed.webp",
+          "secondary_images": [
+            "assets/images/anti-climb-panel-detail-1.webp",
+            "assets/images/anti-climb-panel-detail-2.webp",
+            "assets/images/anti-climb-panel-green.webp"
+          ],
+          "overview": "A welded mesh system for sites that need anti-climb and anti-cut characteristics while retaining visibility for CCTV surveillance.",
+          "specifications": {
+            "Mesh aperture": "76.2 × 12.7 mm",
+            "System": "Welded mesh panels and engineered posts",
+            "Finish": "Galvanizing and coating to approved project specification",
+            "Design coordination": "Panel height, foundations and toppings to suit the site"
+          },
+          "key_features": [
+            "Narrow apertures make the mesh difficult to grip",
+            "Dense mesh restricts access for common cutting tools",
+            "Visibility supports perimeter surveillance"
+          ],
+          "applications": [
+            "Data Centers & Hyperscale Campuses",
+            "Defence & Strategic Establishments",
+            "Corporate IT Parks & SEZs",
+            "Warehousing & Logistics Hubs",
+            "Substations & Utility Infrastructure"
+          ],
+          "core": true,
+          "delivery": "A-1 Fence system solutioning & Jhanvi site execution"
+        },
+        {
+          "id": "brc-bell-post-fence",
+          "name": "BRC / Bell Post Fence",
+          "category": "High Security & Welded Mesh",
+          "badge": "A-1 Fence systems",
+          "tagline": "A precise, modular boundary with a clean roll-top finish.",
+          "image": "assets/images/brc-bell-post-fence-installed.webp",
+          "secondary_images": [
+            "assets/images/brc-unico-prima-post-detail.webp",
+            "assets/images/brc-unico-prima-mesh-zoom.webp",
+            "assets/images/brc-unico-prima-installation.webp"
+          ],
+          "overview": "UNICO Prima roll-top weldmesh combines a reinforced panel profile with a post system designed for straightforward installation.",
+          "specifications": {
+            "Mesh pattern": "200 × 50 mm",
+            "Panel": "Roll-top welded mesh",
+            "Post": "UNICO Prima / Bell Post profile",
+            "Installation": "Panel fixing without on-site welding"
+          },
+          "key_features": [
+            "Reinforced roll-top and bottom edges",
+            "Modular installation with UNICO Prima posts",
+            "Heights and finishes coordinated with the project"
+          ],
+          "applications": [
+            "Corporate Campuses & IT Parks",
+            "Private Bungalows & Gated Townships",
+            "Parks, Gardens & Public Walkways",
+            "Commercial Showrooms & Factories"
+          ],
+          "core": true,
+          "delivery": "A-1 Fence system solutioning & Jhanvi site execution"
+        },
+        {
+          "id": "h-post-fence",
+          "name": "H-Post Modular System",
+          "category": "High Security & Welded Mesh",
+          "badge": "A-1 Fence systems",
+          "tagline": "One modular post system. Flexible perimeter configurations.",
+          "image": "assets/images/h-post-fence-installed.webp",
+          "secondary_images": [
+            "assets/images/h-post-detail-1.webp",
+            "assets/images/h-post-detail-2.webp",
+            "assets/images/h-post-spec-diagram.webp"
+          ],
+          "overview": "H-profile posts, smart clamps and compatible fence toppings create a modular system for industrial and infrastructure boundaries.",
+          "specifications": {
+            "Post system": "H-profile modular post",
+            "Corners": "U-clamp connections",
+            "Toppings": "Wall spikes, razor tape, concertina and crank panels",
+            "Configuration": "Project-specific panels and heights"
+          },
+          "key_features": [
+            "Supports a range of panel configurations",
+            "U-clamps simplify corner connections",
+            "Fence toppings can be coordinated with the security brief"
+          ],
+          "applications": [
+            "Industrial Warehouses & Distribution Hubs",
+            "Sports Arenas & Stadium Perimeters",
+            "Commercial Demarcation & Infrastructure",
+            "Institutional Campuses"
+          ],
+          "core": true,
+          "delivery": "A-1 Fence system solutioning & Jhanvi site execution"
+        }
+      ]
+    },
+    {
+      "id": "crash-rated-defense",
+      "title": "Hostile Vehicle Mitigation (HVM)",
+      "products": [
+        {
+          "id": "k4-crash-rated-fence",
+          "name": "K-4 Anti-Ram Fence",
+          "category": "Hostile Vehicle Mitigation (HVM)",
+          "badge": "Hostile vehicle mitigation",
+          "tagline": "Vehicle mitigation integrated with the security perimeter.",
+          "image": "assets/images/k4-rated-high-security-fence.webp",
+          "overview": "An anti-ram fence system for critical infrastructure. The supplied company profile identifies a K-4 system for a 6,800 kg vehicle at 48 km/h; the test report and installed configuration must be reviewed against each project’s specification.",
+          "specifications": {
+            "Product designation": "K-4 rated fence",
+            "Reference standards": "ASTM F2656 / DOS SD-STD-02.01, as described in the company profile",
+            "Nominal impact condition": "6,800 kg vehicle at 48 km/h (30 mph)",
+            "Engineering review": "Confirm tested configuration, penetration rating and foundations"
+          },
+          "key_features": [
+            "Coordinates vehicle mitigation with the fence line",
+            "Foundation design is part of the engineering scope",
+            "Product-specific test documentation reviewed for procurement"
+          ],
+          "applications": [
+            "Data Centers & Hyperscale Server Farms",
+            "Defence Facilities & Military Bases",
+            "Government & Embassies",
+            "Petrochemical, Energy & Power Substations"
+          ],
+          "core": true,
+          "delivery": "A-1 Fence system solutioning & Jhanvi site execution"
+        }
+      ]
+    },
+    {
+      "id": "active-electronic-security",
+      "title": "Active Electronic Security",
+      "products": [
+        {
+          "id": "industrial-electric-fence",
+          "name": "Active Power Electric Fence",
+          "category": "Active Electronic Security",
+          "badge": "Active electronic security",
+          "tagline": "Perimeter deterrence with zone-based alarm monitoring.",
+          "image": "assets/images/electric-perimeter-fence.webp",
+          "overview": "An active electric perimeter system combining regulated pulses with local and remote zone-wise alarms for climbing, cutting or tampering attempts.",
+          "specifications": {
+            "System": "Pulsed electric security fence",
+            "Design requirement": "IEC 60335-compliant equipment, subject to selected system documentation",
+            "Monitoring": "Local and remote zone-wise audio-visual alarms",
+            "Integration": "Alarm and security interface coordination"
+          },
+          "key_features": [
+            "Active perimeter deterrence",
+            "Zone-based alerts to support response",
+            "Equipment selection and safe installation reviewed for each site"
+          ],
+          "applications": [
+            "Hyperscale Data Center Perimeters",
+            "High-Value Industrial Warehouses & SEZs",
+            "Critical Energy Utilities & Solar Substations",
+            "Defence Logistics & Secure Manufacturing"
+          ],
+          "core": true,
+          "delivery": "A-1 Fence system solutioning & Jhanvi site execution"
+        }
+      ]
+    },
+    {
+      "id": "gates-and-automation",
+      "title": "Access Gates & Motors",
+      "products": [
+        {
+          "id": "industrial-gates-and-automation",
+          "name": "Industrial Gates & Automation",
+          "category": "Access Gates & Motors",
+          "badge": "Access gates & motors",
+          "tagline": "Controlled access, engineered around your operations.",
+          "image": "assets/images/sliding-automated-gate.webp",
+          "secondary_images": [
+            "assets/images/cantilever-heavy-duty-gate.webp",
+            "assets/images/swing-security-gate.webp",
+            "assets/images/d5-evo-gate-motor-product.webp",
+            "assets/images/d5-evo-gate-motor-banner.webp",
+            "assets/images/gate-safety-photocells.webp",
+            "assets/images/gate-safety-flash-light.webp"
+          ],
+          "overview": "Cantilever, sliding and swing gates with project-specific steelwork and automation. Centurion D5-Evo drives are available for compatible sliding gates within the manufacturer’s duty and weight limits.",
+          "specifications": {
+            "Gate types": "Cantilever, sliding and swing",
+            "Drive option": "Centurion D5-Evo for compatible sliding gates up to 500 kg",
+            "Drive selection": "Matched to gate weight, travel, duty cycle and site conditions",
+            "Safety options": "Safety edges, photocells and warning lights"
+          },
+          "key_features": [
+            "Manual or automated configurations",
+            "Custom steel frames and perimeter integration",
+            "Drive and safety devices selected for the application"
+          ],
+          "applications": [
+            "Logistics Parks & Freight Terminals",
+            "Corporate Tech Campuses & Industrial Entrances",
+            "Data Center Vehicle Inspection Ingress Points",
+            "High-Security Commercial Facilities"
+          ],
+          "core": true,
+          "delivery": "Jhanvi project coordination & execution"
+        }
+      ]
+    },
+    {
+      "id": "structural-steel-fabrication",
+      "title": "Structural Steel & Precast",
+      "products": [
+        {
+          "id": "structural-steel-fabrication-erection",
+          "name": "Structural Steel & PEB",
+          "category": "Structural Steel & Precast",
+          "badge": "Jhanvi project delivery",
+          "tagline": "From coordinated drawings to fabrication and crane erection.",
+          "image": "assets/images/structural-steel-fabrication-1.webp",
+          "secondary_images": [
+            "assets/images/structural-steel-erection-2.webp"
+          ],
+          "overview": "Jhanvi coordinates structural steel works across shop fabrication, surface preparation, transport, site assembly and erection for industrial and infrastructure projects.",
+          "specifications": {
+            "Scope": "PEB frames, columns, beams and supporting structures",
+            "Connections": "Bolted and welded to approved drawings",
+            "Protection": "Surface preparation and project-specific protective coatings",
+            "Execution": "Transport, lifting coordination, assembly and crane erection"
+          },
+          "key_features": [
+            "Drawing coordination and shop fabrication",
+            "Project-specific support structures and steelworks",
+            "Site assembly and crane erection coordination"
+          ],
+          "applications": [
+            "Industrial Manufacturing Plants & PEB Sheds",
+            "Heavy Equipment & Utility Support Gantries",
+            "Warehouse Storage Structures & Mezzanines",
+            "Infrastructure Gantries & Platforms"
+          ],
+          "core": true,
+          "delivery": "Jhanvi project coordination & execution"
+        },
+        {
+          "id": "precast-jersey-barriers",
+          "name": "Precast Concrete Systems",
+          "category": "Structural Steel & Precast",
+          "badge": "Jhanvi precast portfolio",
+          "tagline": "From perimeter barriers to the infrastructure beneath the site.",
+          "image": "assets/images/precast-jersey-barriers-stack.webp",
+          "secondary_images": [
+            "assets/images/precast-jersey-barrier-single.webp",
+            "assets/images/ppgi-sheet-fencing-installed.webp"
+          ],
+          "overview": "Jhanvi’s precast portfolio brings together Jersey barriers, drainage, chambers, culverts, retaining wall elements, pipes and paving. Coordinate your precast requirements through one Jhanvi project enquiry.",
+          "specifications": {
+            "Portfolio": "Jersey barriers and Jhanvi precast items",
+            "Barrier options": "1 m and 3 m lengths available within the precast portfolio",
+            "Coordination": "Dimensions, concrete grade, reinforcement and lifting details to approved drawings",
+            "Site scope": "Supply, transportation, placement and perimeter integration"
+          },
+          "key_features": [
+            "Factory-cast elements for coordinated site placement",
+            "Precast foundations and interfaces for PPGI and fencing",
+            "Full precast product profile available within this portfolio"
+          ],
+          "applications": [
+            "Data Center External Perimeter Segregation",
+            "Industrial Construction & Plant Boundaries",
+            "Traffic Channelization & High-Security Crash Demarcation",
+            "Warehouse Perimeter Protection"
+          ],
+          "core": true,
+          "delivery": "Jhanvi project coordination & execution"
+        },
+        {
+          "id": "ppgi-sheet-fencing",
+          "name": "PPGI Site Barricading",
+          "category": "Structural Steel & Precast",
+          "badge": "Supporting site works",
+          "tagline": "Practical site segregation, integrated with precast and steel.",
+          "image": "assets/images/ppgi-sheet-fencing-installed.webp",
+          "overview": "PPGI sheet barricading on engineered steel supports for data center construction, industrial sites and phased development. Coordinate supports, precast interfaces, height and wind loading with the project drawings.",
+          "specifications": {
+            "Material": "Pre-painted galvanized iron sheets",
+            "Supports": "Project-specific steel posts and frames",
+            "Interfaces": "Precast bases, foundations and gates",
+            "Design": "Height and wind loading to approved site requirements"
+          },
+          "key_features": [
+            "Opaque site boundary and segregation",
+            "Integration with precast and steel structures",
+            "Project-specific heights and finishes"
+          ],
+          "applications": [
+            "Data Center Construction Segregation",
+            "Industrial Warehouse Boundaries",
+            "Commercial Real Estate Development Projects",
+            "Temporary & Permanent Industrial Barricading"
+          ],
+          "core": false,
+          "delivery": "Jhanvi project coordination & execution"
+        }
+      ]
+    }
+  ],
+  "precast_items": [
+    {
+      "id": "drainage",
+      "name": "U Drains & Box Culverts",
+      "image": "sppl-u-drains",
+      "description": "Precast U drains, covered drainage runs and box culverts for site infrastructure.",
+      "spec": "Section, invert levels and covers to project drawings."
+    },
+    {
+      "id": "barriers",
+      "name": "Jersey / Crash Barriers",
+      "image": "sppl-jersey-barriers",
+      "description": "Modular concrete barriers, including 1 m and 3 m options in the precast portfolio.",
+      "spec": "Confirm dimensions, reinforcement and any required impact testing."
+    },
+    {
+      "id": "re-walls",
+      "name": "RE Wall Elements",
+      "image": "sppl-re-walls",
+      "description": "Precast wall elements for reinforced earth wall applications.",
+      "spec": "System design, connections and panel schedule by project."
+    },
+    {
+      "id": "slab-covers",
+      "name": "Slab Covers",
+      "image": "sppl-trench-covers",
+      "description": "Precast slab covers in varying sizes for coordinated civil works.",
+      "spec": "Clear span, thickness and loading to approved design."
+    },
+    {
+      "id": "trench-covers",
+      "name": "Drain & Trench Covers",
+      "image": "sppl-trench-covers",
+      "description": "Concrete covers for drainage runs and utility trenches.",
+      "spec": "Opening dimensions, access and load class to be confirmed."
+    },
+    {
+      "id": "chambers",
+      "name": "Customized Precast Chambers",
+      "image": "sppl-electrical-chambers",
+      "description": "Electrical, sewerage, valve, water-line and optical-fiber inspection chambers.",
+      "spec": "Internal sizes, openings and service interfaces to drawings."
+    },
+    {
+      "id": "hume-pipes",
+      "name": "RCC Hume Pipes",
+      "image": "sppl-hume-pipes",
+      "description": "Precast RCC pipes for drainage and civil infrastructure packages.",
+      "spec": "Diameter, pipe class and joints to project specification."
+    },
+    {
+      "id": "pavers",
+      "name": "Paver Blocks",
+      "image": "sppl-pavers",
+      "description": "Precast pavers in different shapes for external works and paved areas.",
+      "spec": "Thickness, pattern and loading to the site specification."
+    },
+    {
+      "id": "kerbs",
+      "name": "Kerb Stones & Saucer Drains",
+      "image": "sppl-kerb-stones",
+      "description": "Precast edging and surface drainage elements for roads and landscape interfaces.",
+      "spec": "Profile, transitions and alignment to approved layouts."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Microsoft HYD 41",
+      "contractor": "Suroj Buildcon",
+      "location": "Hyderabad, Telangana",
+      "scope": "Integrated precast + PPGI perimeter",
+      "quantity": "1,920 RMT",
+      "detail": "RCC precast plank and column system, Jersey barriers, PPGI sheeting and associated structural works. A separate package covers three manual swing gates.",
+      "type": "Data center"
+    },
+    {
+      "name": "AWS Datacenter, Hyderabad",
+      "contractor": "HIC Infrastructure",
+      "location": "Hyderabad, Telangana",
+      "scope": "Type-4 security fencing",
+      "quantity": "530 SQM",
+      "detail": "Supply and installation of 1,800 mm high Type-4 fence with wall spikes, including drawing coordination, transportation and handover documentation.",
+      "type": "Data center"
+    },
+    {
+      "name": "CRI Pumps, Coimbatore",
+      "contractor": "URC Construction",
+      "location": "Coimbatore, Tamil Nadu",
+      "scope": "Bell-post weldmesh fencing",
+      "quantity": "396 SQM",
+      "detail": "MS weldmesh for stamping and ancillary buildings: 1,820 mm height, 50 × 200 mm mesh and polyester coating.",
+      "type": "Industrial"
+    }
+  ]
+};
