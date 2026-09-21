@@ -179,6 +179,7 @@
   if (carouselTrack) {
     let isStopped = false;
     let isPaused = false;
+    let isVisible = false;
     let rafId = null;
     const speed = 0.8;
 
@@ -192,6 +193,19 @@
       }
     };
 
+    const startScroll = () => {
+      if (!isStopped && !isPaused && isVisible && !rafId && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        rafId = requestAnimationFrame(step);
+      }
+    };
+
+    const pauseScroll = () => {
+      if (rafId) {
+        cancelAnimationFrame(rafId);
+        rafId = null;
+      }
+    };
+
     carouselTrack.addEventListener('touchstart', stopAutoScroll, { passive: true });
     carouselTrack.addEventListener('pointerdown', event => {
       if (event.pointerType === 'touch' || event.pointerType === 'pen') {
@@ -200,13 +214,13 @@
     }, { passive: true });
     carouselTrack.addEventListener('wheel', stopAutoScroll, { passive: true });
 
-    carouselTrack.addEventListener('mouseenter', () => { isPaused = true; });
-    carouselTrack.addEventListener('mouseleave', () => { isPaused = false; });
-    carouselTrack.addEventListener('focusin', () => { isPaused = true; });
-    carouselTrack.addEventListener('focusout', () => { isPaused = false; });
+    carouselTrack.addEventListener('mouseenter', () => { isPaused = true; pauseScroll(); });
+    carouselTrack.addEventListener('mouseleave', () => { isPaused = false; startScroll(); });
+    carouselTrack.addEventListener('focusin', () => { isPaused = true; pauseScroll(); });
+    carouselTrack.addEventListener('focusout', () => { isPaused = false; startScroll(); });
 
     const step = () => {
-      if (!isStopped && !isPaused) {
+      if (!isStopped && !isPaused && isVisible) {
         carouselTrack.scrollLeft += speed;
         const cardsCount = carouselTrack.children.length;
         if (cardsCount > 1) {
@@ -217,14 +231,40 @@
           }
         }
       }
-      if (!isStopped) {
+      if (!isStopped && isVisible) {
         rafId = requestAnimationFrame(step);
+      } else {
+        rafId = null;
       }
     };
 
-    if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      rafId = requestAnimationFrame(step);
+    if (typeof IntersectionObserver !== 'undefined') {
+      const carouselObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          isVisible = entry.isIntersecting;
+          if (isVisible) {
+            startScroll();
+          } else {
+            pauseScroll();
+          }
+        });
+      }, { rootMargin: '120px' });
+      carouselObserver.observe(carouselTrack);
+    } else {
+      isVisible = true;
+      startScroll();
     }
+  }
+
+  // Partner Logo Marquee: pause animation off-screen to conserve CPU/resources
+  const logoMarquee = document.querySelector?.('.logo-marquee');
+  if (logoMarquee && typeof IntersectionObserver !== 'undefined') {
+    const marqueeObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        logoMarquee.classList.toggle('is-paused', !entry.isIntersecting);
+      });
+    }, { rootMargin: '150px' });
+    marqueeObserver.observe(logoMarquee);
   }
 })();
 
