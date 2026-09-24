@@ -28,7 +28,7 @@
           "id": "anti-climb-358-fence",
           "name": "358 Anti-Climb Mesh",
           "category": "High Security & Welded Mesh",
-          "badge": "A-1 Fence systems",
+          "badge": "A-1 Fence Systems",
           "tagline": "Dense mesh. Clear sightlines. A stronger perimeter.",
           "image": "assets/images/anti-climb-358-installed.webp",
           "secondary_images": [
@@ -62,7 +62,7 @@
           "id": "brc-bell-post-fence",
           "name": "BRC / Bell Post Fence",
           "category": "High Security & Welded Mesh",
-          "badge": "A-1 Fence systems",
+          "badge": "A-1 Fence Systems",
           "tagline": "A precise, modular boundary with a clean roll-top finish.",
           "image": "assets/images/brc-bell-post-fence-installed.webp",
           "secondary_images": [
@@ -95,7 +95,7 @@
           "id": "h-post-fence",
           "name": "H-Post Modular System",
           "category": "High Security & Welded Mesh",
-          "badge": "A-1 Fence systems",
+          "badge": "A-1 Fence Systems",
           "tagline": "One modular post system. Flexible perimeter configurations.",
           "image": "assets/images/h-post-fence-installed.webp",
           "secondary_images": [
@@ -134,7 +134,7 @@
           "id": "k4-crash-rated-fence",
           "name": "K-4 Anti-Ram Fence",
           "category": "Hostile Vehicle Mitigation (HVM)",
-          "badge": "Hostile vehicle mitigation",
+          "badge": "A-1 Fence Systems",
           "tagline": "Vehicle mitigation integrated with the security perimeter.",
           "image": "assets/images/k4-rated-high-security-fence.webp",
           "overview": "An anti-ram fence system for critical infrastructure. The supplied company profile identifies a K-4 system for a 6,800 kg vehicle at 48 km/h; the test report and installed configuration must be reviewed against each project’s specification.",
@@ -166,9 +166,9 @@
       "products": [
         {
           "id": "industrial-electric-fence",
-          "name": "Active Power Electric Fence",
+          "name": "Electric Fence",
           "category": "Active Electronic Security",
-          "badge": "Active electronic security",
+          "badge": "A-1 Fence Systems",
           "tagline": "Perimeter deterrence with zone-based alarm monitoring.",
           "image": "assets/images/electric-perimeter-fence.webp",
           "overview": "An active electric perimeter system combining regulated pulses with local and remote zone-wise alarms for climbing, cutting or tampering attempts.",
