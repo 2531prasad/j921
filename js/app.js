@@ -89,9 +89,9 @@
     const validCategories = new Set(['all', ...data.product_categories.map(category => category.id)]);
     let category = validCategories.has(params.get('category')) ? params.get('category') : 'all';
     search.value = params.get('q') || '';
-    const reset = document.getElementById('reset-filters');
+    const isPhoneView = () => typeof matchMedia === 'function' && matchMedia('(max-width: 640px)').matches;
     const filter = (updateUrl = true) => {
-      const term = search.value.trim().toLocaleLowerCase();
+      const term = isPhoneView() ? '' : search.value.trim().toLocaleLowerCase();
       let count = 0;
       cards.forEach(card => {
         const match = (category === 'all' || card.dataset.category === category) && card.dataset.search.toLocaleLowerCase().includes(term);
@@ -101,7 +101,6 @@
       buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.filter === category)));
       document.getElementById('result-count').textContent = `${count} ${count === 1 ? 'solution' : 'solutions'}${category === 'all' && !term ? ' · 8 core systems + PPGI' : ''}`;
       document.getElementById('no-results').hidden = count > 0;
-      reset.hidden = category === 'all' && !term;
       if (updateUrl) {
         const url = new URL(location.href);
         category === 'all' ? url.searchParams.delete('category') : url.searchParams.set('category', category);
@@ -109,9 +108,15 @@
         history.replaceState(null, '', url);
       }
     };
-    buttons.forEach(button => button.addEventListener('click', () => { category = button.dataset.filter; filter(); }));
+    buttons.forEach(button => button.addEventListener('click', () => {
+      category = button.dataset.filter;
+      if (category === 'all') search.value = '';
+      filter();
+    }));
     search.addEventListener('input', () => filter());
-    reset.addEventListener('click', () => { category = 'all'; search.value = ''; filter(); search.focus(); });
+    if (typeof matchMedia === 'function') {
+      try { matchMedia('(max-width: 640px)').addEventListener('change', () => filter(false)); } catch (_) {}
+    }
     addEventListener('popstate', () => {
       const current = new URLSearchParams(location.search);
       category = validCategories.has(current.get('category')) ? current.get('category') : 'all';
