@@ -1,4 +1,4 @@
-window.PRODUCTS_DATA = {
+{
   "company": {
     "name": "Jhanvi Enterprises",
     "tagline": "Where quality meets security, we fence.",
@@ -428,4 +428,4 @@ window.PRODUCTS_DATA = {
       "type": "Industrial"
     }
   ]
-};
+}

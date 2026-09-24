@@ -158,7 +158,7 @@
       const channel = event.submitter?.value || 'whatsapp';
       const href = channel === 'email'
         ? 'mailto:info@jhanvienterprises.co.in?subject=' + encodeURIComponent('Project enquiry — ' + system) + '&body=' + encodeURIComponent(message)
-        : 'https://wa.me/918328014122?text=' + encodeURIComponent(message);
+        : 'https://wa.me/919515382105?text=' + encodeURIComponent(message);
       const dispatch = document.getElementById('dispatch-link');
       dispatch.href = href;
       dispatch.textContent = channel === 'email' ? 'Open prepared email ↗' : 'Open prepared WhatsApp message ↗';
