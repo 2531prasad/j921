@@ -14,8 +14,8 @@ window.PRODUCTS_DATA = {
     },
     "contact": {
       "phone": "+91-9515382105",
-      "email": "info@jhanvienterprises.co.in",
-      "website": "https://www.jhanvienterprises.co.in",
+      "email": "info@jhanvienterprises.com",
+      "website": "https://www.jhanvienterprises.com",
       "address": "Plot No 942, Asbestos Colony, Kukatpally, Ranga Reddy, Hyderabad, Telangana - 500072, India"
     }
   },
@@ -413,9 +413,9 @@ window.PRODUCTS_DATA = {
       "name": "AWS Datacenter, Hyderabad",
       "contractor": "HIC Infrastructure",
       "location": "Hyderabad, Telangana",
-      "scope": "Type-4 security fencing",
+      "scope": "Anti climb security fencing",
       "quantity": "530 SQM",
-      "detail": "Supply and installation of 1,800 mm high Type-4 fence with wall spikes, including drawing coordination, transportation and handover documentation.",
+      "detail": "Supply and installation of 1,800 mm high anti-climb fence with wall spikes, including drawing coordination, transportation and handover documentation.",
       "type": "Data center"
     },
     {

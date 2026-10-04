@@ -162,7 +162,7 @@
       ].join('\n');
       const channel = event.submitter?.value || 'whatsapp';
       const href = channel === 'email'
-        ? 'mailto:info@jhanvienterprises.co.in?subject=' + encodeURIComponent('Project enquiry — ' + system) + '&body=' + encodeURIComponent(message)
+        ? 'mailto:info@jhanvienterprises.com?subject=' + encodeURIComponent('Project enquiry — ' + system) + '&body=' + encodeURIComponent(message)
         : 'https://wa.me/919515382105?text=' + encodeURIComponent(message);
       const dispatch = document.getElementById('dispatch-link');
       dispatch.href = href;
